@@ -1104,7 +1104,6 @@ Navbar.js
 
 ```js
 import { toggleSidebar, logoutUser } from '../features/user/userSlice'
-
 ;<div className={showLogout ? 'dropdown show-dropdown' : 'dropdown'}>
   <button
     type='button'
@@ -2428,7 +2427,6 @@ Job.js
 
 ```js
 import { setEditJob, deleteJob } from '../features/job/jobSlice'
-
 ;<Link
   to='/add-job'
   className='btn edit-btn'
